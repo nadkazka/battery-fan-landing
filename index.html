@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Замовлення вентилятора</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Вентилятор на акумуляторній батареї</h1>
+        <p>Замовляйте сьогодні та отримуйте доставку по Україні!</p>
+        <button onclick="scrollToOrder()">Замовити зараз</button>
+    </header>
+    <section id="order">
+        <h2>Форма замовлення</h2>
+        <form id="orderForm">
+            <input type="text" name="name" placeholder="Ваше ім'я" required>
+            <input type="tel" name="phone" placeholder="Ваш телефон" required>
+            <input type="text" name="city" placeholder="Місто" required>
+            <input type="text" name="postOffice" placeholder="Відділення Нової Пошти" required>
+            <button type="submit">Відправити замовлення</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
